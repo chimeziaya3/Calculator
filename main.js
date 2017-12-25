@@ -17,3 +17,6 @@ function mul(){
 function div(){
 	document.getElementById('display').value+='/';
 }
+function result(){
+	document.getElementById('display').value=eval(document.getElementById('display').value);
+}
