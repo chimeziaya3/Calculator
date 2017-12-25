@@ -14,3 +14,6 @@ function subdtract(){
 function mul(){
 	document.getElementById('display').value+='*';
 }
+function div(){
+	document.getElementById('display').value+='/';
+}
