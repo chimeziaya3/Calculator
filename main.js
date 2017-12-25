@@ -11,3 +11,6 @@ function sum(){
 function subdtract(){
     document.getElementById('display').value+='-';
 }
+function mul(){
+	document.getElementById('display').value+='*';
+}
