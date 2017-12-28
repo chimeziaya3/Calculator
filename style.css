@@ -9,6 +9,8 @@ body{
     width: 100vw;
     height: 70vw;
     font-size: 120pt;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(138, 140, 140);
 }
 .calcContainer{
     background-color: blue;
@@ -46,12 +48,14 @@ body{
     /* border-radius: 20px; */
     height: 10vh;
     width: 25vw;
-    font-size: 24pt;
+    font-size: 32pt;
+    font-family: 'Pacifico', cursive;
     background-color: rgb(213, 242, 242);
     color: rgb(138, 140, 140);
 }
 .calcButtons:hover{
     background-color: rgb(249, 162, 162);
+    color: white;
 }
 
 #evalButton{
@@ -61,4 +65,5 @@ body{
     height: 20vmax;
     width: 100vw;
     background-color: rgb(249, 94, 94);
+    color: white;
 }
