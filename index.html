@@ -8,43 +8,30 @@
     </head>
     <body>
         <main class="calcContainer">
-        <!-- My numbers and operators.-->
             <form class="calc">
                 <input class="display" type="numbers" id="display" placeholder="0" >
                     <div class="calcButtonContainer">
-                        
-                            <input class="calcButtons" type="button" id="9" value="9" onclick="document.getElementById('display').value+='9'">
-                            <input class="calcButtons" type="button" id="8" value="8" onclick="document.getElementById('display').value+='8'">
-                            <input class="calcButtons" type="button" id="7" value="7" onclick="document.getElementById('display').value+='7'">
-                            <input class="calcButtons" type="button" id="+" value="+" onclick="sum()">
-                       
-                            
-                        
-                            <input class="calcButtons" type="button" id="6" value="6" onclick="document.getElementById('display').value+='6'">
-                            <input class="calcButtons" type="button" id="5" value="5" onclick="document.getElementById('display').value+='5'">
-                            <input class="calcButtons" type="button" id="4" value="4" onclick="document.getElementById('display').value+='4'">
-                            <input class="calcButtons" type="button" id="-" value="-" onclick="subdtract()">
-                       
-                            
-                        
-                            <input class="calcButtons" type="button" id="3" value="3" onclick="document.getElementById('display').value+='3'">
-                            <input class="calcButtons" type="button" id="2" value="2" onclick="document.getElementById('display').value+='2'">
-                            <input class="calcButtons" type="button" id="1" value="1" onclick="document.getElementById('display').value+='1'">
-                            <input class="calcButtons" type="button" id="*" value="*" onclick="mul()">
-                       
-                            
-                        
-                            <input class="calcButtons" type="button" id="0" value="0" onclick="document.getElementById('display').value+='0'">
-                            <input class="calcButtons" type="button" id="/" value="/" onclick="div()">
-                            <input class="calcButtons" type="button" id="ce" value="ce" onclick="document.getElementById('display').value=' '">
-                            <input class="calcButtons" type="button" id="avg" value="avg" onclick="average(numbers.value)">
-                       
-                            
+                        <!-- My numbers and operators.-->
+                        <input class="calcButtons" type="button" id="9" value="9" onclick="document.getElementById('display').value+='9'">
+                        <input class="calcButtons" type="button" id="8" value="8" onclick="document.getElementById('display').value+='8'">
+                        <input class="calcButtons" type="button" id="7" value="7" onclick="document.getElementById('display').value+='7'">
+                        <input class="calcButtons" type="button" id="+" value="+" onclick="sum()">
+                        <input class="calcButtons" type="button" id="6" value="6" onclick="document.getElementById('display').value+='6'">
+                        <input class="calcButtons" type="button" id="5" value="5" onclick="document.getElementById('display').value+='5'">
+                        <input class="calcButtons" type="button" id="4" value="4" onclick="document.getElementById('display').value+='4'">
+                        <input class="calcButtons" type="button" id="-" value="-" onclick="subdtract()">
+                        <input class="calcButtons" type="button" id="3" value="3" onclick="document.getElementById('display').value+='3'">
+                        <input class="calcButtons" type="button" id="2" value="2" onclick="document.getElementById('display').value+='2'">
+                        <input class="calcButtons" type="button" id="1" value="1" onclick="document.getElementById('display').value+='1'">
+                        <input class="calcButtons" type="button" id="*" value="*" onclick="mul()">
+                        <input class="calcButtons" type="button" id="0" value="0" onclick="document.getElementById('display').value+='0'">
+                        <input class="calcButtons" type="button" id="ce" value="ce" onclick="document.getElementById('display').value=' '">
+                        <input class="calcButtons" type="button" id="avg" value="avg" onclick="average(numbers.value)">
+                        <input class="calcButtons" type="button" id="/" value="/" onclick="div()">
                         <input id="evalButton" class="calcButtons" type="button" id="=" value="=" onclick="result()">
                     </div>
             </form>
         </main>
-
     </body>
     <script src='./main.js'></script>
 </html>
