@@ -1,8 +1,8 @@
 console.log('its connected');
 
 // my place holder variables
-const output;
-const numbers;
+const output = 0;
+const numbers = 0;
  
 // My Operator funtions below
 function sum(){
@@ -22,8 +22,8 @@ function result(){
 }
 // My average function. Can't seem to get it to work
 function average(value){
-	var sum=0;
-	var numbers=value.split("+");
+    var sum=0;
+	let numbers=value.split("+");
 	for (let i = 0; i < numbers.length; i++) {
         sum=sum+numbers[i];
         
